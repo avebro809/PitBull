@@ -52,7 +52,7 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-/* Responsive images base, put your images in a wrapper
+/* Responsive images base, put your images in a wrapper */
 img {
     display: block;
     width: 100%;
@@ -70,21 +70,52 @@ html {
 }
 /* END BOX MODEL SETTINGS */
 
+
+
 .header {
-  display:inline;
+  /*display:inline;*/
+  background-color: #564A70;
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+section {
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .title {
-  max-width: 800px;
-  padding: 50px;
-  margin: 0px 0px 100px 0px;
-  background-color: 564A70;
+  /*width: 100%;*/
+  /*max-width: 600px;*/
+  /*padding: 50px;*/
+  /*margin: 0px auto 100px auto;*/
+
 }
 .pitbullone {
-  max-width: 500px;
-  background-color: 564A70;
-  margin-bottom: 100px;
+  /*max-width: 500px;*/
+  /*background-color: #564A70;*/
+
 }
+
+@media only screen and (min-width: 768px) {
+  .header section {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .title {
+    /*width: 10%;*/
+    width: 50%;
+  }
+  .pitbullone {
+    order: 2;
+    width: 50%;
+  }
+}
+
+
+
 
 .intro {
   padding: 50px;
@@ -97,7 +128,6 @@ body {
   font-family: "Roboto", Verdana, sans-serif;
   margin: 0;
   padding: 0;
-  max-width: 1400px;
 }
 
 h1 {
