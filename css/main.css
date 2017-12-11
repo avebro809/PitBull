@@ -121,7 +121,7 @@ section {
 
 
 .intro {
-  padding: 50px;
+  padding: 0px 50px 50px 50px;
 }
 
 body {
@@ -140,11 +140,18 @@ body {
   padding-right: 100px;
 }
 
+.number {
+  float:left;
+  width: 18%;
+  padding: 20px;
+}
+
 h1 {
   font-size: 48px;
   color: #FFFFFF;
 
 }
+
 
 h2 {
   font-size: 40px;
@@ -161,6 +168,37 @@ p {
 
 }
 
+a {
+  color: #564A70;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #BFE7F3;
+}
+
+.button {
+  background: #BFE7F3;
+  max-width: 200px;
+  text-decoration-color: #564A70;
+  margin: 50px auto 40px auto;
+  padding: 15px;
+  text-align: center;
+  border-radius: 20px;
+  font-weight: bolder;
+}
+
+.loadingpit {
+  width: 40%;
+  margin: auto;
+  padding-bottom: 50px;
+}
+
+.button:hover {
+  background: #564A70;
+  text-decoration-color: #BFE7F3;
+}
+
 .pitbullthree {
   width: 35%;
   margin: auto;
@@ -169,17 +207,29 @@ p {
 .buildings {
   margin-bottom: -10px;
 }
+
+.heart {
+  width: 45%;
+  margin: auto;
+  padding-bottom: 50px;
+}
+
+.happypit {
+  width: 45%;
+  margin: auto;
+}
+
+
 .scale-in-center {
   transform: scale(1);
-
 }
 
 
 
 
 .scale-in-center.element-in {
-  -webkit-animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	        animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  -webkit-animation: scale-in-center 1.0s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: scale-in-center 1.0s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
 .wobble-hor-top {
@@ -346,9 +396,91 @@ animation-delay: 0.5s;
 
 
 
+@media only screen and (max-width: 960px) {
+  h1{
+    font-size: 30px;
+  }
+  .stripe {
+    background-color: #564A70;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 100px;
+    padding-right: 50px;
+  }
+  p {
+    padding-left: 100px;
+    padding-right: 50px;
+    color: #564A70;
+    font-size: 15px;
+  }
+  .intro {
+    padding-bottom: 30px;
+  }
+  h2 {
+    font-size: 25px;
+    color: #564A70;
+    font-weight: bold;
+    padding-top: 50px;
+    padding-left: 35px;
+  }
+  .number {
+    float:left;
+    width: 20%;
+    padding: 20px;
+  }
+  .pitbullthree {
+    margin-bottom: -50px;
+  }
+}
+
+
+
+@media only screen and (max-width: 480px) {
+  h1{
+    font-size: 18px;
+  }
+  .stripe {
+    background-color: #564A70;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 25px;
+
+  }
+  p {
+    padding-left: 50px;
+    padding-right: 25px;
+    color: #564A70;
+    font-size: 12px;
+  }
+  .number {
+    float:left;
+    width: 30%;
+    padding: 20px;
+  }
+  .button {
+    background: #BFE7F3;
+    max-width: 100px;
+    text-decoration-color: #564A70;
+    margin: 30px auto 30px auto;
+    padding: 5px;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: bolder;
+  }
+  a {
+    color: #564A70;
+    text-decoration: none;
+    font-size: 12px;
+  }
+}
+
+
 /*Here's a sample media query for you. This one is for desktop styles.*/
 /*@media only screen and (min-width: 960px) {
 
+
+}
 }
 
 /* ==========================================================================
