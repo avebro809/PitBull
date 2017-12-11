@@ -224,7 +224,9 @@ a:hover {
   transform: scale(1);
 }
 
-
+.biteforce {
+  padding-bottom: 150px;
+}
 
 
 .scale-in-center.element-in {
@@ -430,6 +432,9 @@ animation-delay: 0.5s;
   }
   .pitbullthree {
     margin-bottom: -50px;
+  }
+  .biteforce {
+    padding-bottom: 10px;
   }
 }
 
