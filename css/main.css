@@ -237,6 +237,7 @@ a:hover {
 .wobble-hor-top {
 	-webkit-animation: wobble-hor-top 2s 0.05s infinite both;
 	        animation: wobble-hor-top 2s 0.05s infinite both;
+          overflow: hidden;
 }
 
 /*
@@ -431,7 +432,7 @@ animation-delay: 0.5s;
     padding: 20px;
   }
   .pitbullthree {
-    margin-bottom: -50px;
+    margin-bottom: -10px;
   }
   .biteforce {
     padding-bottom: 10px;
@@ -441,27 +442,46 @@ animation-delay: 0.5s;
 
 
 @media only screen and (max-width: 480px) {
+  .header {
+    /*display:inline;*/
+    background-color: #564A70;
+    width: 100%;
+    margin-bottom: 30px;
+    padding-left: 50px;
+    padding-right: 40px;
+    padding-bottom: 50px;
+  }
   h1{
-    font-size: 18px;
+    font-size: 17px;
+  }
+  h2 {
+    font-size: 16px;
+    padding-top: 20px;
+  }
+  .biteforce {
+    padding: 0px 20px 40px 10px;
   }
   .stripe {
     background-color: #564A70;
-    padding-top: 10px;
-    padding-bottom: 20px;
-    padding-left: 50px;
-    padding-right: 25px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+    padding-right: 10px;
 
+  }
+  .intro {
+    padding: 0px 10px 30px 10px;
   }
   p {
     padding-left: 50px;
-    padding-right: 25px;
+    padding-right: 30px;
     color: #564A70;
     font-size: 12px;
   }
   .number {
     float:left;
-    width: 30%;
-    padding: 20px;
+    width: 25%;
+    padding: 10px;
   }
   .button {
     background: #BFE7F3;
