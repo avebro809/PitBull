@@ -492,6 +492,7 @@ animation-delay: 0.5s;
     text-align: center;
     border-radius: 10px;
     font-weight: bolder;
+    line-height: 12px;
   }
   a {
     color: #564A70;
