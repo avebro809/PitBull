@@ -121,7 +121,7 @@ section {
 
 
 .intro {
-  padding: 0px 50px 50px 50px;
+  padding: 0px 50px 80px 50px;
 }
 
 body {
@@ -165,6 +165,9 @@ p {
   padding-left: 200px;
   padding-right: 100px;
   color: #564A70;
+  max-width: 1600px;
+  margin:auto;
+
 
 }
 
@@ -202,10 +205,12 @@ a:hover {
 .pitbullthree {
   width: 35%;
   margin: auto;
-  margin-bottom: -375px;
+  padding-bottom: 0px;
+  margin-bottom: -30px;
 }
 .buildings {
   margin-bottom: -10px;
+  margin-top: -300px;
 }
 
 .heart {
@@ -417,7 +422,7 @@ animation-delay: 0.5s;
     font-size: 15px;
   }
   .intro {
-    padding-bottom: 30px;
+    padding-bottom: 60px;
   }
   h2 {
     font-size: 25px;
@@ -433,6 +438,10 @@ animation-delay: 0.5s;
   }
   .pitbullthree {
     margin-bottom: -10px;
+  }
+  .buildings {
+    margin-bottom: -10px;
+    margin-top: -100px;
   }
   .biteforce {
     padding-bottom: 10px;
